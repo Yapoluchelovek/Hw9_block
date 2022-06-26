@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.Name{
+    color: blue;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.text{
+    color: blue;
+    display: inline-block;
+    margin-left: 50px;
+}
+.p_flex1{
+    color: blue;
+    margin-left: 750px;
+    
+}
+.p_flex2{
+    color: blue;
+    margin-left: 750px;
+}
+.flex2{
+    width: 675px;
+    height: 81px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 750px;
+}
+.square{
+    background-color: blue;
+    width: 75px;
+    height: 75px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+}
+.inline-flex{
+    width: 675px;
+    height: 81px;
+    background-color: darkblue;
+    border-radius: 5px;
+    margin-left: 750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
